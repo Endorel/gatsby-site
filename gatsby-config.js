@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Helenes Blogg',
+    title: 'Helenes Portfolio',
     author: 'Helene Francke',
-    description: 'Min blogg',
+    description: 'Min portfolio',
     siteUrl: 'https://endorel.github.io/gatsby-site',
   },
   pathPrefix: '/gatsby-site',
@@ -53,11 +53,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography',
-      },
-    },
+    
   ],
 }
